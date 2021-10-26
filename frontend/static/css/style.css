@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 
+    Nav styling
+*/
+
+nav {
+  background-color: #3c3c3c;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  color: #a3a3a3;
+}
+
+/* Content Styling */
+
+.card {
+  background-color: #3c3c3c80;
+  border: 1px solid black;
+  max-width: 300px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+.card img {
+  width: 300px;
+}
+.card a {
+  text-decoration: none;
+  color: white;
+}
+h3 {
+  margin-top: 1rem;
+}
+.content {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}

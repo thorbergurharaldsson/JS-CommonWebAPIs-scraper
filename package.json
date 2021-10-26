@@ -1,0 +1,26 @@
+{
+  "name": "js-commonwebapis-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorbergurharaldsson/JS-CommonWebAPIs-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorbergurharaldsson/JS-CommonWebAPIs-scraper/issues"
+  },
+  "homepage": "https://github.com/thorbergurharaldsson/JS-CommonWebAPIs-scraper#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
